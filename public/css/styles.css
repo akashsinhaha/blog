@@ -1,0 +1,87 @@
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
+
+.compose-btn{
+  position: fixed;
+  right: 170px;
+  bottom: 100px;
+}
+
+.footer-padding {
+	padding-bottom: 60px;
+}
+
+.footer {
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #1abc9c;
+}
+
+.footer p {
+	margin-top: 25px;
+	font-size: 12px;
+  color: #fff;
+}
+
+.aboutContent {
+  text-align: center;
+}
+.contactContent {
+  text-align: center;
+}
+
+.aboutContent img {
+
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin: 0 0 20px;
+}
+.marginDown{
+  margin-bottom: 20px;
+}
+
+.linkedinButton {
+  margin-top: 30px;
+}
+
+.linkedinButton a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.linkedinButton a:active {
+  text-decoration: none;
+  color: #fff;
+}
+
+.linkedinButton a:link {
+  text-decoration: none;
+  color: #fff;
+}
+.linkedinButton a:visited {
+  text-decoration: none;
+  color: #fff;
+}
