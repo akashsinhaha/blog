@@ -19,7 +19,7 @@ app.use(express.static("public"));
 
 // connecting mongoose
 
-mongoose.connect('mongodb+srv://admin-akash:akash1999@cluster0.vqrdq.mongodb.net/blogDB', {useNewUrlParser: true, useUnifiedTopology: true});
+mongoose.connect('mongodb+srv://admin-akash:akash1999@cluster0.vqrdq.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', {useNewUrlParser: true, useUnifiedTopology: true});
 
 //let posts = [];
 
